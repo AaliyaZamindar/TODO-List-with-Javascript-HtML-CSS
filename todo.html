@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO-LIST</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>TODO LISTS</h1>
+    <form onsubmit="addFunction(event)">
+        <input type="text" id="input"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <ul id="myList">
+        <li><input type="checkbox"><span>do party</span></li>
+        <li><input type="checkbox"><span>do some work</span></li>
+     </ul>
+     <button onclick="deleteFunction()" type="button">DELETE!</button>
+</body>
+<script src = "todo2.js"></script>
+</html>
